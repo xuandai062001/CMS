@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(".header").load("/template-parts/header.html", function (){
+    $(".header").load("template-parts/header.html", function (){
         $(".header .btn").click(function (){
             if($(this).parent().hasClass("active")){
                 $(this).parent().removeClass("active");
@@ -23,7 +23,7 @@ $(document).ready(function(){
     });
 
 
-    $(".sidebar").load("/template-parts/sidebar.html", function (){
+    $(".sidebar").load("template-parts/sidebar.html", function (){
 
     })
 
