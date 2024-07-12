@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row justify-content-center custom-form">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <p class="mb-0">Register</p>
+                </div>
+                <div class="card-body">
+                    <form class="d-grid gap-3">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="username" placeholder="User name" maxlength="50">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="E-mail" maxlength="50">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password" placeholder="Password" maxlength="50">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="re-password" placeholder="Re Password">
+                        </div>
+                        <button id="register-btn" type="submit" class="btn btn-success w-100">Register</button>
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <a id="show-login-form" href="login.html">Click here to Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

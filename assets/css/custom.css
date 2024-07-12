@@ -1,0 +1,88 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-form{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.custom-form a{
+    text-decoration: none;
+}
+
+.custom-form .card-footer{
+    background: transparent;
+    border-top: none;
+}
+
+
+.header{
+    background-color:rgba(0,0,0,.03)
+}
+
+.header .dropdown-item{
+    display: flex;
+    gap: 10px;
+}
+
+.header .btn{
+    background-color:rgba(0, 0, 0, 0.2);
+}
+.header .btn:focus{
+    box-shadow: none;
+}
+
+.header .btn i{
+    color: #084298;
+}
+
+.header .dropdown-toggle::after{
+    color: #084298;
+}
+
+.header .dropdown-item{
+    display: flex;
+    align-items: center;
+}
+
+
+.header .dropdown-menu{
+    right: 0;
+    top: 100%;
+    bottom: unset;
+}
+
+.header .btn-group.active .dropdown-menu{
+    display: block;
+}
+
+.main .content .form-control[readonly]{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.main .content .btn{
+    margin-top: 15px;
+}
+
+.main .content label {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.sidebar .btn-outline-secondary{
+    border: 1px solid #ced4da;
+    border-left: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+
+.sidebar .form-control{
+    border-radius: 5px 0 0 5px;
+}

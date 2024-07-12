@@ -1,0 +1,79 @@
+<div class="container-xxl d-flex justify-content-between">
+    <a class="navbar-brand text-dark">CMS</a>
+    <div class="btn-group">
+        <button type="button" class="btn dropdown-toggle">
+            <i class="fa-solid fa-user"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end">
+            <li>
+                <a class="dropdown-item" class="text-decoration-none text-dark" href="./editProfile.html">
+                    <i class="fa-solid fa-user"></i>
+                    <span>User Profile</span>
+                </a>
+            </li>
+            <li>
+                <a id="logout-btn" class="dropdown-item" class="text-decoration-none text-dark" href="./login.html">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span>Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+
+        // Function to get a cookie
+        function getCookie(name) {
+            let nameEQ = name + "=";
+            let ca = document.cookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) === ' ') c = c.substring(1, c.length); // loại bỏ khoảng trắng đầu dòng nếu có
+                if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        let email = localStorage.getItem('email');
+        let password = localStorage.getItem('password');
+        if(!email && !password){
+            email = getCookie("email");
+            password = getCookie("password");
+        }
+
+        let users = JSON.parse(localStorage.getItem('users')) || {};
+        let check = true;
+        if (!users[email]) {
+            check = false;
+        }
+        else{
+            if (users[email].password !== password) {
+                check = false;
+            }
+        }
+
+        if (!check) {
+            window.location.href = 'login.html';
+        }
+
+        function setCookie(name, value, days) {
+            let expires = "";
+            if (days) {
+                let date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        }
+
+        $('#logout-btn').click(function() {
+            localStorage.removeItem('email');
+            localStorage.removeItem('password');
+            setCookie("email", "", 0);
+            setCookie("password", "", 0);
+            window.location.href = 'login.html';
+        });
+    });
+</script>
