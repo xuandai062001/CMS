@@ -43,16 +43,27 @@ $(document).ready(function(){
             return String(username).match(/^[a-zA-Z0-9]([._]?[a-zA-Z0-9])*[a-zA-Z0-9]$/);
         }
 
+        if (email === '' || password === '' || username === '' || repassword === '') {
+            alert('Please fill all fields');
+            return;
+        }
+
         if(!validateUsername(username)){
             alert('Please enter a valid username');
             return;
         }
 
-
-        if (email === '' || password === '' || username === '' || repassword === '') {
-            alert('Please fill all fields');
+        if(username.length < 3){
+            alert('Min length must be greater than or equal 3');
             return;
         }
+
+        if (username.length > 30){
+            alert('Max length must be less than or equal 30');
+        }
+
+
+
 
         const validateEmail = (email) => {
             return String(email)
@@ -62,8 +73,23 @@ $(document).ready(function(){
                 );
         };
 
+        if(email.length < 5){
+            alert('Min length must be greater than or equal 5');
+            return;
+        }
+
         if (!validateEmail(email)) {
             alert('Please enter a valid email address');
+            return;
+        }
+
+        if(password.length < 8){
+            alert('Password must be greater than or equal 8');
+            return;
+        }
+
+        if(password.length > 30){
+            alert('Password must be less than or equal 30');
             return;
         }
 
