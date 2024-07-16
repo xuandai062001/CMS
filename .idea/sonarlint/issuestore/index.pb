@@ -33,3 +33,9 @@ A
 addContent.html,2\6\2657a697f9235cb5b75be5bdbe8196e944bd812e
 @
 viewContent.html,1\0\10a59733aa0d051f4eb0a0270aee9b02e0cd3402
+O
+template-parts/editProfile.html,4\9\49071617a6ae60346b501d8af704394804bd54d5
+O
+template-parts/viewContent.html,a\0\a0bf7f3e0b27d41615da3e6afd3f9fd3c05b1c0f
+O
+template-parts/formContent.html,a\7\a78a78d17df16b0e66fafffa89c328e46a6a6394

@@ -1,4 +1,4 @@
-<div class="container-xxl d-flex justify-content-between">
+<div class="container-fluid d-flex justify-content-between">
     <a class="navbar-brand text-dark">CMS</a>
     <div class="btn-group">
         <button type="button" class="btn dropdown-toggle">
@@ -6,10 +6,10 @@
         </button>
         <ul class="dropdown-menu dropdown-menu-end">
             <li>
-                <a class="dropdown-item" class="text-decoration-none text-dark" href="./editProfile.html">
+                <button id="user-profile" tab-title="Edit Profile" card-title="Profile Form Elements" class="dropdown-item tab-btn text-decoration-none text-dark">
                     <i class="fa-solid fa-user"></i>
                     <span>User Profile</span>
-                </a>
+                </button>
             </li>
             <li>
                 <a id="logout-btn" class="dropdown-item" class="text-decoration-none text-dark" href="./login.html">
@@ -36,11 +36,11 @@
             return null;
         }
 
-        let email = localStorage.getItem('email');
-        let password = localStorage.getItem('password');
+        let email = getCookie("email");
+        let password = getCookie("password");
         if(!email && !password){
-            email = getCookie("email");
-            password = getCookie("password");
+            email = sessionStorage.getItem('email');
+            password = sessionStorage.getItem('password');
         }
 
         let users = JSON.parse(localStorage.getItem('users')) || {};
@@ -69,8 +69,8 @@
         }
 
         $('#logout-btn').click(function() {
-            localStorage.removeItem('email');
-            localStorage.removeItem('password');
+            sessionStorage.removeItem("email");
+            sessionStorage.removeItem("password");
             setCookie("email", "", 0);
             setCookie("password", "", 0);
             window.location.href = 'login.html';

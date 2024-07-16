@@ -1,0 +1,26 @@
+
+šjavascript:S4138"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÈªĞ¥şÿÿÿÿ8Ù¦íÊ‹2J$77962746-e911-49d5-9776-e90d66783a4a
+ujavascript:S6557"'Use 'String#startsWith' method instead.(•Î¥ øÿÿÿÿ8Ú¦íÊ‹2J$ff57ce25-8d15-49fb-a53d-4cd4816be6ea
+pjavascript:S6557"'Use 'String#startsWith' method instead.(…›‚ƒ8Ú¦íÊ‹2J$58fa83ea-3ab7-4431-97f6-b2b2ed1f8aea
+wjavascript:S3504")Unexpected var, use let or const instead.( Ÿ¨Şûÿÿÿÿ8Ú¦íÊ‹2J$0920ba2a-094c-4393-a1c7-17388579afc0
+Šjavascript:S2004&"ARefactor this code to not nest functions more than 4 levels deep.(Ç²8—¼€Ì‹2J$c777092a-1ac3-4d7c-90b3-b58852ac82de
+javascript:S2004<"ARefactor this code to not nest functions more than 4 levels deep.(„îõëúÿÿÿÿ8˜¼€Ì‹2J$a998b07a-c8c6-41db-8b99-99b1049e4ce7
+javascript:S2004A"ARefactor this code to not nest functions more than 4 levels deep.(±äİÛşÿÿÿÿ8˜¼€Ì‹2J$dcfc24e8-9912-40db-b8ef-df72ed029fae
+sjavascript:S3504Œ")Unexpected var, use let or const instead.(ŒçÍè8Û¦íÊ‹2J$c0dd1ef2-bca7-4bdf-a6da-af9482ab33df
+sjavascript:S3504")Unexpected var, use let or const instead.(ê†àÑ8Û¦íÊ‹2J$fe3fe985-2432-480c-9bb9-3462b333d50e
+sjavascript:S3504")Unexpected var, use let or const instead.(Š–²Ï8˜¼€Ì‹2J$d4375aa1-281e-4f3a-89ae-cee1b03543bd
+sjavascript:S3504š")Unexpected var, use let or const instead.(ŒçÍè8Û¦íÊ‹2J$c7307adc-0058-4237-97f8-a2fee05554c7
+sjavascript:S3504›")Unexpected var, use let or const instead.(ê†àÑ8Û¦íÊ‹2J$b0adecd3-6e63-4b2a-8a23-2a44530d68cc
+sjavascript:S3504œ")Unexpected var, use let or const instead.(Š–²Ï8˜¼€Ì‹2J$b4ee4675-ac58-44b0-a161-bfe2f8a38573
+~javascript:S1481œ"4Remove the declaration of the unused 'tab' variable.(Š–²Ï8™¼€Ì‹2J$05e52218-dff4-4cea-b313-cbcf1eded585
+{javascript:S1854œ"1Remove this useless assignment to variable "tab".(Š–²Ï8™¼€Ì‹2J$8a2270e4-0a0c-47cc-89d4-ab377c56d098
+sjavascript:S3504¡")Unexpected var, use let or const instead.(¹Šı»8™¼€Ì‹2J$da8b1eda-99b8-42fd-b0cd-9d4e4f7bc030
+javascript:S2004«"ARefactor this code to not nest functions more than 4 levels deep.(úÚ¼èşÿÿÿÿ8™¼€Ì‹2J$ea51af77-2dcd-4066-8bd5-71dfe1fd36fc
+‹javascript:S2004ü"ARefactor this code to not nest functions more than 4 levels deep.(ÕÉ8™¼€Ì‹2J$e06900b3-e2f5-4e86-b0f5-6cb91b0cfeb6
+qjavascript:S6594©"'Use the "RegExp.exec()" method instead.(œ¦Âº8™¼€Ì‹2J$07fbadbe-050e-4c6e-a6ee-950be248643d
+qjavascript:S6594Â"'Use the "RegExp.exec()" method instead.(£Ò¤Œ8™¼€Ì‹2J$6010489e-637a-4773-927a-150d29672e6a
+javascript:S5843Ã"TSimplify this regular expression to reduce its complexity from 34 to the 20 allowed.(•”¿8š¼€Ì‹2J$c5daabee-6322-4dec-b50f-50b21a0b9d02
+…javascript:S6353Ã";Use concise character class syntax '\d' instead of '[0-9]'.(•”¿8š¼€Ì‹2J$89e5bd35-a353-4ada-94da-ddcd812ac2c1
+…javascript:S6353Ã";Use concise character class syntax '\d' instead of '[0-9]'.(•”¿8š¼€Ì‹2J$d9764408-4dcb-46bd-9c1a-3544daaaf277
+…javascript:S6353Ã";Use concise character class syntax '\d' instead of '[0-9]'.(•”¿8š¼€Ì‹2J$9ecee5b2-a559-4a5a-8128-efde0255590f
+…javascript:S6353Ã";Use concise character class syntax '\d' instead of '[0-9]'.(•”¿8š¼€Ì‹2J$63552366-3c20-4e93-a7f4-ed9a575ac43f
