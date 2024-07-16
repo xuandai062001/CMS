@@ -131,3 +131,13 @@
     font-weight: 400;
 }
 
+
+@media(max-width: 767.98px){
+    .sidebar{
+        min-height: auto;
+    }
+
+    .content table th, .content table td{
+        font-size: 12px;
+    }
+}
